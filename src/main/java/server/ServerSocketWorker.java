@@ -11,7 +11,7 @@ import java.net.Socket;
 import java.util.Date;
 
 class ServerSocketWorker implements Runnable {
-    private static final Logger logger = LogManager.getLogger(Server.class);
+    private static final Logger logger = LogManager.getLogger(ServerSocketWorker.class);
 
     private final ServerSocket server;
 
